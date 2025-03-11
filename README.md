@@ -1,6 +1,5 @@
 # Interesting small toys: Self-Evolutional AI
-This repository contains a toy example of a self-evolving AI system for image classification. The goal is to explore how a model can autonomously evolve its architecture and training parameters by randomly selecting and mutating layers. While experimental and not intended for production, this project demonstrates fundamental ideas behind neural architecture search and evolutionary algorithms in a clear and accessible way.
-
+This repository contains a toy example of a self-evolving AI system for image classification. The goal is to explore how a model can autonomously evolve its architecture and training parameters by randomly selecting and mutating layers. 
 
 ## Components
 
