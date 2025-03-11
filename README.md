@@ -8,11 +8,11 @@ Self-Evolutional AI (Toy Example) leverages an evolutionary strategy where:
 
 1. Dynamic Model Architecture: The system starts with a trivial model and iteratively mutates its structure by randomly adding, removing, or modifying layers.  
 
-2. Evolutionary Training Loop: The best performing models (based on validation accuracy) are selected to generate new candidates, ensuring continuous self-improvement.  
+2. Evolutionary Training Loop: The best performing models (based on validation accuracy) are selected to generate new candidates.
 
-3. Weight Inheritance: New candidate models inherit weights from their parents for unchanged layers, allowing them to build on previously learned features.  
+3. Weight Inheritance: New candidate models inherit weights from their parents for unchanged layers.
 
-4. Autonomous Hyperparameter Tuning: Training parameters such as learning rate and optimizer type are also evolved, making the process entirely self-directed.  
+4. Autonomous Hyperparameter Tuning: Training parameters such as learning rate and optimizer type are also evolved. 
 
 
 ## Features
@@ -20,10 +20,7 @@ Self-Evolutional AI (Toy Example) leverages an evolutionary strategy where:
 1. Randomized Layer Selection: The model randomly chooses mutation operations (e.g., add a convolutional or pooling layer) to change its architecture.
    
 2. Continuous Adaptation: Through a repetitive evolutionary loop, the model continuously refines its structure and training strategy.
-   
-3. Educational Toy: A simple, easy-to-follow example built with PyTorch, showcasing basic ideas behind self-evolving neural networks.
-   
-4. CIFAR-10 Classification: The example is designed to classify CIFAR-10 images, providing a concrete application of the evolutionary approach.
+      
 
 ## Run:
 
